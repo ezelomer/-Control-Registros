@@ -61,5 +61,7 @@ Copiar código
 
 ## Licencia
 Proyecto creado para fines educativos.
-<img width="1920" height="1080" alt="Captura de pantalla 2025-12-09 200134" src="https://github.com/user-attachments/assets/6909e780-46de-481f-951d-6062668b8968" />
+<img width="1602" height="831" alt="Captura de pantalla 2025-12-09 201252" src="https://github.com/user-attachments/assets/70bf9ecf-2e44-496c-ae64-abca6e78577a" />
+<img width="1839" height="886" alt="Captura de pantalla 2025-12-09 201326" src="https://github.com/user-attachments/assets/2d8ee74b-1c51-4f45-8319-0e50219947aa" />
+
 
