@@ -25,7 +25,7 @@ El objetivo principal es ofrecer una herramienta sencilla y práctica para organ
 
 ### Ejecutar el proyecto localmente
 1. Clonar el repositorio:  
-git clone https://github.com/tuusuario/control-registros.git
+https://github.com/ezelomer/-Control-Registros.git
 
 markdown
 Copiar código
