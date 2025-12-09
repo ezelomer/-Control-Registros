@@ -1,0 +1,115 @@
+/* ---------------------- VARIABLES CSS ---------------------- */
+:root {
+    --color-bg: #174d64;
+    --color-principal: #21b0b0;
+    --color-secundario: #ff5252;
+    --color-verde: #155d56;
+    --fuente1: "Georgia", serif;
+    --fuente2: "Arial", sans-serif;
+}
+
+/* ---------------------- ESTILOS GENERALES ---------------------- */
+body {
+    background: var(--color-bg);
+    margin: 0;
+    font-family: var(--fuente2);
+    padding: 10px;
+}
+
+h1, h2 {
+    font-family: var(--fuente1);
+    text-align: center;
+}
+
+header, footer {
+    background: var(--color-principal);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* ---------------------- FORMULARIO ---------------------- */
+form {
+    width: 70%;
+    margin: auto;
+    background: rgb(147, 89, 89);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid var(--color-principal);
+    border-radius: 8px;
+    margin-top: 5px;
+}
+
+input:hover, select:hover {
+    transform: scale(1.02);
+    transition: 0.2s;
+}
+
+/* Botones diferenciados */
+.btn-agregar {
+    background: var(--color-verde);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 12px;
+    cursor: pointer;
+    width: 48%;
+}
+
+td button {
+    background: var(--color-secundario);
+    border: none;
+    padding: 6px 12px;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+td button:hover {
+    transform: scale(1.05);
+}
+
+/* ---------------------- TABLA ---------------------- */
+table {
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+    border-radius: 10px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+}
+
+/* ---------------------- RESPONSIVE ---------------------- */
+@media (max-width: 768px) {
+    form {
+        width: 95%;
+    }
+
+    table {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    img {
+        width: 90px;
+    }
+}
