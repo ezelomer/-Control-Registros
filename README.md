@@ -13,7 +13,7 @@ El objetivo principal es ofrecer una herramienta sencilla y práctica para organ
 - **index.html** — Contiene toda la estructura visual de la página (formulario, tabla, botones).  
 - **styles.css** — Aplica los estilos, colores, tamaños, organización visual y diseño responsivo.  
 - **script.js** — Controla toda la lógica: validación de datos, agregar/eliminar registros, actualización del balance y manejo de eventos.  
-- **img/** — Carpeta opcional para imágenes usadas dentro del proyecto.
+
 
 ## Tecnologías utilizadas
 - **HTML5** — Para la estructura de la página.  
@@ -59,8 +59,7 @@ markdown
 Copiar código
 4. Envía un Pull Request para revisión.
 
-## Licencia
-Proyecto creado para fines educativos.
+
 <img width="1602" height="831" alt="Captura de pantalla 2025-12-09 201252" src="https://github.com/user-attachments/assets/70bf9ecf-2e44-496c-ae64-abca6e78577a" />
 <img width="1839" height="886" alt="Captura de pantalla 2025-12-09 201326" src="https://github.com/user-attachments/assets/2d8ee74b-1c51-4f45-8319-0e50219947aa" />
 
