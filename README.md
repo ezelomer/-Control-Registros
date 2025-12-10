@@ -22,6 +22,46 @@ El objetivo principal es ofrecer una herramienta sencilla y práctica para organ
 - **Git y GitHub** — Para control de versiones y publicación del proyecto.
 ## 🚀 Instrucciones de Uso
 
+1. Agregar un Registro
+Descripción: Escribe qué es el gasto/ingreso (ej: "Salario", "Supermercado")
+
+Monto: Ingresa la cantidad (ej: 1500)
+
+Categoría: Selecciona una opción del menú desplegable
+
+Urgente: Marca la casilla si es necesario
+
+Haz clic en el botón "Agregar"
+
+2. Visualizar Registros
+Todos los registros aparecerán automáticamente en la tabla
+
+Cada fila muestra:
+
+✅ Descripción
+
+💰 Monto formateado
+
+🏷️ Categoría
+
+⚡ Urgencia ("Sí" o "No")
+
+🗑️ Botón para eliminar
+
+3. Gestionar Registros
+Eliminar: Haz clic en el botón "Eliminar" junto a cualquier registro
+
+Balance automático: El total se actualiza en tiempo real
+
+Limpiar formulario: Usa el botón "Limpiar" para vaciar todos los campos
+
+4. Interpretar el Balance
+🟢 Verde: Balance positivo (ingresos > gastos)
+
+🔴 Rojo: Balance negativo (gastos > ingresos)
+
+Mensaje: "Balance actual: $X"
+
 ### **📥 Clonar y Ejecutar Localmente**
 
 #### **Opción 1: Abrir directamente**
