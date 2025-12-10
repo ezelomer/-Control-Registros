@@ -24,43 +24,45 @@ El objetivo principal es ofrecer una herramienta sencilla y práctica para organ
 
 1. Agregar un Registro
 Descripción: Escribe qué es el gasto/ingreso (ej: "Salario", "Supermercado")
-
 Monto: Ingresa la cantidad (ej: 1500)
-
 Categoría: Selecciona una opción del menú desplegable
-
 Urgente: Marca la casilla si es necesario
-
 Haz clic en el botón "Agregar"
-
 2. Visualizar Registros
 Todos los registros aparecerán automáticamente en la tabla
-
 Cada fila muestra:
 
 ✅ Descripción
-
 💰 Monto formateado
-
 🏷️ Categoría
-
 ⚡ Urgencia ("Sí" o "No")
-
 🗑️ Botón para eliminar
 
 3. Gestionar Registros
 Eliminar: Haz clic en el botón "Eliminar" junto a cualquier registro
-
 Balance automático: El total se actualiza en tiempo real
-
 Limpiar formulario: Usa el botón "Limpiar" para vaciar todos los campos
-
-4. Interpretar el Balance
+4. Interpretar el Balance 
 🟢 Verde: Balance positivo (ingresos > gastos)
-
 🔴 Rojo: Balance negativo (gastos > ingresos)
 
 Mensaje: "Balance actual: $X"
+
+##Contribuciones
+1. **Haz un fork** del repositorio
+2. **Clona tu fork** localmente:
+  
+Crea una rama para tu funcionalidad:
+bash
+git checkout -b feature/nueva-funcionalidad
+Realiza tus cambios y haz commit:
+bash
+git add .
+git commit -m "feat: añade [descripción de la funcionalidad]"
+Sube los cambios a tu fork:
+bash
+git push origin feature/nueva-funcionalidad
+
 
 ### **📥 Clonar y Ejecutar Localmente**
 
@@ -87,29 +89,7 @@ open index.html
 # En Linux:
 xdg-open index.html
 
-## 🤝 Contribuciones
 
-### **¿Cómo contribuir?**
-
-Si deseas contribuir al proyecto:
-
-#### **Pasos básicos:**
-1. **Haz un fork** del repositorio
-2. **Clona tu fork** localmente:
-  
-Crea una rama para tu funcionalidad:
-
-bash
-git checkout -b feature/nueva-funcionalidad
-Realiza tus cambios y haz commit:
-
-bash
-git add .
-git commit -m "feat: añade [descripción de la funcionalidad]"
-Sube los cambios a tu fork:
-
-bash
-git push origin feature/nueva-funcionalidad
 
 
 <img width="1602" height="831" alt="Captura de pantalla 2025-12-09 201252" src="https://github.com/user-attachments/assets/70bf9ecf-2e44-496c-ae64-abca6e78577a" />
