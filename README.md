@@ -48,18 +48,28 @@ Limpiar formulario: Usa el botón "Limpiar" para vaciar todos los campos
 
 Mensaje: "Balance actual: $X"
 
-##Contribuciones
+## 🤝 Contribuciones
+
+### **¿Cómo contribuir?**
+
+Si deseas contribuir al proyecto:
+
+#### **Pasos básicos:**
 1. **Haz un fork** del repositorio
 2. **Clona tu fork** localmente:
-  
+   
 Crea una rama para tu funcionalidad:
+bash
+git clone https://github.com/ezelomer/Control-Registros.git
 bash
 git checkout -b feature/nueva-funcionalidad
 Realiza tus cambios y haz commit:
+
 bash
 git add .
 git commit -m "feat: añade [descripción de la funcionalidad]"
 Sube los cambios a tu fork:
+
 bash
 git push origin feature/nueva-funcionalidad
 
@@ -67,9 +77,10 @@ git push origin feature/nueva-funcionalidad
 ### **📥 Clonar y Ejecutar Localmente**
 
 #### **Opción 1: Abrir directamente**
-1. Descarga los archivos del proyecto
-2. Abre `index.html` en tu navegador favorito (Chrome, Firefox, Edge, etc.)
-3. ¡Listo! La aplicación está funcionando
+1. **Descarga** los 3 archivos del proyecto
+2. **Busca** el archivo llamado `index.html`
+3. **Haz doble clic** sobre él
+4. **¡Listo!** Se abrirá en tu navegador
 
 #### **Opción 2: Usando Git**
 bash
@@ -88,8 +99,6 @@ open index.html
 
 # En Linux:
 xdg-open index.html
-
-
 
 
 <img width="1602" height="831" alt="Captura de pantalla 2025-12-09 201252" src="https://github.com/user-attachments/assets/70bf9ecf-2e44-496c-ae64-abca6e78577a" />
