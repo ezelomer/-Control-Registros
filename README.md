@@ -20,44 +20,56 @@ El objetivo principal es ofrecer una herramienta sencilla y práctica para organ
 - **CSS** — Para los estilos y diseño visual.  
 - **JavaScript (ES6+)** — Para la lógica y funciones interactivas.  
 - **Git y GitHub** — Para control de versiones y publicación del proyecto.
+## 🚀 Instrucciones de Uso
 
-## Instrucciones de uso
+### **📥 Clonar y Ejecutar Localmente**
 
-### Ejecutar el proyecto localmente
-1. Clonar el repositorio:  
-https://github.com/ezelomer/-Control-Registros.git
+#### **Opción 1: Abrir directamente**
+1. Descarga los archivos del proyecto
+2. Abre `index.html` en tu navegador favorito (Chrome, Firefox, Edge, etc.)
+3. ¡Listo! La aplicación está funcionando
 
-markdown
-Copiar código
-2. Entrar en la carpeta:  
-cd control-registros
+#### **Opción 2: Usando Git**
+bash
+# Clonar el repositorio
+git clone https://github.com/ezelomer/Control-Registros.git
 
-markdown
-Copiar código
-3. Abrir el archivo `index.html` en el navegador (doble clic o arrastrarlo al navegador).
+# Navegar al directorio del proyecto
+cd Control-Registros
 
-### Subir cambios al repositorio (si estás trabajando con Git)
+# Abrir en el navegador
+# En Windows:
+start index.html
+
+# En macOS:
+open index.html
+
+# En Linux:
+xdg-open index.html
+
+## 🤝 Contribuciones
+
+### **¿Cómo contribuir?**
+
+Si deseas contribuir al proyecto:
+
+#### **Pasos básicos:**
+1. **Haz un fork** del repositorio
+2. **Clona tu fork** localmente:
+  
+Crea una rama para tu funcionalidad:
+
+bash
+git checkout -b feature/nueva-funcionalidad
+Realiza tus cambios y haz commit:
+
+bash
 git add .
-git commit -m "Descripción del cambio"
-git push origin main
+git commit -m "feat: añade [descripción de la funcionalidad]"
+Sube los cambios a tu fork:
 
-markdown
-Copiar código
-
-## Contribuciones
-Si deseas contribuir al proyecto, sigue estos pasos:
-1. Haz un fork del repositorio.
-2. Crea una rama nueva:  
-git checkout -b feature/nombre
-
-css
-Copiar código
-3. Realiza tus cambios y súbelos con:  
-git commit -m "Descripción del cambio"
-
-markdown
-Copiar código
-4. Envía un Pull Request para revisión.
+bash
+git push origin feature/nueva-funcionalidad
 
 
 <img width="1602" height="831" alt="Captura de pantalla 2025-12-09 201252" src="https://github.com/user-attachments/assets/70bf9ecf-2e44-496c-ae64-abca6e78577a" />
